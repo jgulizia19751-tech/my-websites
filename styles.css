@@ -194,9 +194,9 @@ h2 {
 }
 
 .service-card h3 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.2;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .price { font-size: .9rem; color: #ddd; }
