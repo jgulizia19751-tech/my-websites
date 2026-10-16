@@ -168,13 +168,16 @@ h2 {
   font-size: 1rem;
 }
 
+
 /* Compact service cards: three columns on laptops */
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 300px));
   gap: 14px;
   align-items: stretch;
+  justify-content: start;
 }
+
 .service-card {
   min-width: 0;
   padding: 12px;
