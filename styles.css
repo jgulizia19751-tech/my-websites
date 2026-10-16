@@ -70,7 +70,7 @@ h2 { font-size: clamp(2.6rem, 6vw, 4.5rem); line-height: 1; letter-spacing: -.01
 .section-heading > p:last-child { color: var(--muted); font-size: 1.05rem; }
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
 .service-card {
