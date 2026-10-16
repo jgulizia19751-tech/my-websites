@@ -12,40 +12,35 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="#home" aria-label="Omaha Mobile Maintenance home">
-      <img src="logo.png" alt="Omaha Mobile Maintenance LLC logo">
-    </a>
- <nav aria-label="Main navigation">
-      <a href="#about">About Us</a>
-      <a href="#services">Services & Pricing</a>
-      <a href="#service-area">Service Area</a>
-      <a href="#booking">Booking</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Omaha Mobile Maintenance home">
+        <img src="logo.png" alt="Omaha Mobile Maintenance LLC logo">
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About Us</a>
+        <a href="#services">Services &amp; Pricing</a>
+        <a href="#service-area">Service Area</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+      </nav>
       <a class="nav-phone" href="tel:15317728570">Call 531-772-8570</a>
     </div>
   </header>
 
   <main>
     <section id="home" class="hero">
-      <div class="hero-overlay"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
       <div class="container hero-content">
         <div class="hero-copy">
-          <p class="eyebrow">MOBILE AUTOMOTIVE MAINTENANCE</p>
-          <h1>WE COME TO YOU.<br><span>SO YOU CAN KEEP MOVING.</span></h1>
-          <p class="hero-text">Reliable mobile maintenance and repair service throughout the Omaha & Council Bluffs metro area.</p>
+          <p class="eyebrow">MOBILE AUTO SERVICE IN OMAHA</p>
+          <h1>Auto maintenance<br><span>at your location.</span></h1>
+          <p class="hero-text">Oil changes, brake work, and other routine services at your home or workplace in the Omaha and Council Bluffs area.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="tel:15317728570">Call Now</a>
-           
+            <a class="btn btn-outline" href="mailto:omahamobile@yahoo.com?subject=Service%20Request">Request Service</a>
           </div>
-       <div class="hero-hours">
-  <strong>Hours:</strong> 9:00 AM – 5:00 PM
-  <br>
-  <strong>7 Days a Week</strong>
-</div>
+          <div class="hero-hours"><strong>Hours:</strong> 9:00 AM–5:00 PM, seven days a week</div>
         </div>
       </div>
     </section>
@@ -53,16 +48,16 @@
     <section id="about" class="section about">
       <div class="container two-col">
         <div>
-          <p class="eyebrow">ABOUT US</p>
-          <h2>MAINTENANCE THAT<br><span>COMES TO YOU.</span></h2>
+          <p class="eyebrow">ABOUT THE BUSINESS</p>
+          <h2>Service that fits<br><span>your schedule.</span></h2>
         </div>
         <div class="about-copy">
-          <p>Omaha Mobile Maintenance LLC is built around one simple idea: your vehicle shouldn't have to slow you down. We bring convenient automotive maintenance and repair services directly to you.</p>
-          <p>Whether you're at home, at work, or dealing with a roadside issue, our mobile service is designed to make vehicle maintenance easier and more convenient.</p>
+          <p>Omaha Mobile Maintenance LLC brings select automotive maintenance and repair services to your home, workplace, or another agreed-upon location.</p>
+          <p>Skip the extra trip to a shop for routine work. Get in touch with your vehicle’s year, make, model, and the service you need, and we’ll confirm availability and pricing.</p>
           <div class="about-points">
-            <div><strong>01</strong><span>Mobile service at your location</span></div>
-            <div><strong>02</strong><span>Serving the Omaha & Council Bluffs metro</span></div>
-            <div><strong>03</strong><span>Up-front starting prices on common services</span></div>
+            <div><strong>✓</strong><span>Service at your home or workplace</span></div>
+            <div><strong>✓</strong><span>Omaha and Council Bluffs metro area</span></div>
+            <div><strong>✓</strong><span>Starting prices listed before you book</span></div>
           </div>
         </div>
       </div>
@@ -71,71 +66,60 @@
     <section id="services" class="section pricing">
       <div class="container">
         <div class="section-heading">
-          <p class="eyebrow">SERVICES & PRICING</p>
-          <h2>KEEP YOUR VEHICLE<br><span>RUNNING RIGHT.</span></h2>
-          <p>Starting prices are listed below. Final pricing may vary by vehicle, location, and service needed.</p>
+          <p class="eyebrow">SERVICES &amp; PRICING</p>
+          <h2>Common services<br><span>and starting prices.</span></h2>
+          <p>These are labor and service starting prices where noted. Share your vehicle details to confirm the final cost before scheduling.</p>
         </div>
 
         <div class="service-grid">
           <article class="service-card">
-            <div class="icon">↻</div>
+            <div class="icon" aria-hidden="true">◉</div>
+            <h3>Oil Changes</h3>
+            <div class="price">Starting at <strong>$85</strong></div>
+            <p>Up to 5 quarts. Oil &amp; filter included.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon" aria-hidden="true">■</div>
+            <h3>Brake Pads</h3>
+            <div class="price">Starting at <strong>$85</strong> / axle</div>
+            <p>Front or rear. Larger vehicles starting at $120.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon" aria-hidden="true">↻</div>
             <h3>Tire Rotation</h3>
             <div class="price">Starting at <strong>$25</strong></div>
           </article>
-
-          
-
-<article class="service-card">
-  <div class="icon">■</div>
-  <h3>Brake Pads</h3>
-  <div class="price">Starting at <strong>$85</strong> / axle</div>
-  <p>Front or rear. Larger vehicles starting at $120.</p>
-```
-                   <article class="service-card">
-            <div class="icon">⚠</div>
-            <h3>Brake Pads & Rotors</h3>
+          <article class="service-card">
+            <div class="icon" aria-hidden="true">⚠</div>
+            <h3>Brake Pads &amp; Rotors</h3>
             <div class="price"><strong>$100</strong></div>
             <p>Front or rear. Larger vehicle pricing starts at $125. Labor only.</p>
           </article>
-
           <article class="service-card">
-            <div class="icon">⚙</div>
-            <h3>Transmission Drain & Fill</h3>
+            <div class="icon" aria-hidden="true">⚙</div>
+            <h3>Transmission Drain &amp; Fill</h3>
             <div class="price"><strong>$95</strong></div>
             <p>Call or email to see if your vehicle qualifies.</p>
           </article>
-
-         
-
           <article class="service-card">
-            <div class="icon">◉</div>
-            <h3>Oil Changes</h3>
-          <div class="price">Starting at <strong>$95</strong></div>
-            <p>Up to 5 quarts. Oil & filter included.</p>
-          </article>
-
-          <article class="service-card">
-            <div class="icon">✦</div>
+            <div class="icon" aria-hidden="true">✦</div>
             <h3>Spark Plugs</h3>
             <div class="price">Starting at <strong>$10</strong> / plug</div>
           </article>
-
           <article class="service-card">
-            <div class="icon">⚡</div>
+            <div class="icon" aria-hidden="true">⚡</div>
             <h3>Coil Packs</h3>
             <div class="price">Starting at <strong>$10</strong> / coil</div>
           </article>
-
           <article class="service-card">
-            <div class="icon">◉</div>
+            <div class="icon" aria-hidden="true">◉</div>
             <h3>Brake Flushes</h3>
             <div class="price">Starting at <strong>$70</strong></div>
           </article>
-
           <article class="service-card featured">
-            <div class="icon">!</div>
+            <div class="icon" aria-hidden="true">!</div>
             <h3>Flat Tire Assistance</h3>
-            <div class="price">Roadside Emergencies</div>
+            <div class="price">Call for pricing</div>
             <p>Contact us for pricing and availability.</p>
           </article>
         </div>
@@ -154,66 +138,41 @@
           <h2>OMAHA +<br><span>COUNCIL BLUFFS.</span></h2>
         </div>
         <div>
-          <p>We're mobile, which means you don't have to arrange a tow or spend your day sitting in a waiting room for many common maintenance services.</p>
-          <p class="area-highlight">SERVICING OMAHA AND SURROUNDING AREAS</p>
+          <p>Mobile appointments are available across Omaha, Council Bluffs, and nearby communities. Availability can depend on your location and the type of service needed.</p>
+          <p class="area-highlight">OMAHA · COUNCIL BLUFFS · NEARBY AREAS</p>
           <a class="btn btn-primary" href="tel:15317728570">Check Service Availability</a>
         </div>
       </div>
     </section>
 
-   </section>
+    <section id="booking" class="section booking">
+      <div class="container booking-inner">
+        <div class="section-heading">
+          <p class="eyebrow">BOOKING</p>
+          <h2>Request a<br><span>service appointment.</span></h2>
+          <p>Use the booking page to request an appointment. Include your vehicle information and a short description of the work you need.</p>
+        </div>
+        <div class="booking-card">
+          <h3>Book online</h3>
+          <p>Choose a time and send your service request. We’ll confirm the details with you.</p>
+          <a class="btn btn-primary" href="https://jamesmta8.setmore.com" target="_blank" rel="noopener">Book an Appointment</a>
+          <p class="booking-note">Online requests can be submitted any time.</p>
+        </div>
+      </div>
+    </section>
 
-<section id="booking" class="section booking">
-  <div class="container booking-inner">
-    <div class="section-heading">
-      <p class="eyebrow">BOOK AN APPOINTMENT</p>
-      <h2>SCHEDULE YOUR<br><span>SERVICE TODAY.</span></h2>
-      <p>
-        Choose a convenient appointment time from your phone, tablet, or computer.
-        Tell us what your vehicle needs and we'll come to you.
-      </p>
-    </div>
-
-    <div class="booking-card">
-      <h3>OMAHA MOBILE MAINTENANCE</h3>
-      <p>Book your mobile automotive service online.</p>
-
-      <a class="btn btn-primary" href="https://jamesmta8.setmore.com">
-        Book an Appointment
-      </a>
-
-      <p class="booking-note">
-        Booking is available 24/7 from mobile or desktop.
-      </p>
-    </div>
-  </div>
-</section>
-      
-
-<section id="contact" class="section contact">
+    <section id="contact" class="section contact">
       <div class="container contact-inner">
         <div>
-          <p class="eyebrow">GET IN TOUCH</p>
-          <h2>READY TO<br><span>KEEP MOVING?</span></h2>
-          <p>Call or email Omaha Mobile Maintenance to ask about a service, request a quote, or check mobile service availability.</p>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Have a question<br><span>about your vehicle?</span></h2>
+          <p>Call or email with your vehicle details and the service you’re looking for. We can discuss pricing and appointment availability.</p>
         </div>
         <div class="contact-card">
-          <a href="tel:15317728570">
-            <small>PHONE</small>
-            <strong>531-772-8570</strong>
-          </a>
-         <a href="mailto:omahamobile@yahoo.com">
-  <small>EMAIL</small>
-  <strong>omahamobile@yahoo.com</strong>
-</a>
-          <div>
-            <small>HOURS</small>
-            <strong>9:00 AM – 5:00 PM</strong>
-         </div>
-          <div>
-            <small>PAYMENT METHODS</small>
-            <strong>Cash • Venmo • Cash App</strong>
-          </div> 
+          <a href="tel:15317728570"><small>PHONE</small><strong>531-772-8570</strong></a>
+          <a href="mailto:omahamobile@yahoo.com"><small>EMAIL</small><strong>omahamobile@yahoo.com</strong></a>
+          <div><small>HOURS</small><strong>9:00 AM – 5:00 PM, 7 days a week</strong></div>
+          <div><small>PAYMENT METHODS</small><strong>Cash • Venmo • Cash App</strong></div>
         </div>
       </div>
     </section>
@@ -223,12 +182,10 @@
     <div class="container footer-wrap">
       <img src="logo.png" alt="Omaha Mobile Maintenance LLC" class="footer-logo">
       <div>© <span id="year"></span> Omaha Mobile Maintenance LLC. All rights reserved.</div>
-      <div>Omaha & Council Bluffs Metro Area</div>
+      <div>Omaha &amp; Council Bluffs Metro Area</div>
     </div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
