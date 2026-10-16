@@ -175,15 +175,15 @@ h2 {
   gap: 14px;
   align-items: stretch;
 }
-
 .service-card {
   min-width: 0;
-  padding: 18px;
-  min-height: 155px;
+  padding: 12px;
+  min-height: 110px;
   background: #111;
   border: 1px solid #292929;
   position: relative;
 }
+
 
 .service-card.featured { background: #210c0d; }
 
