@@ -68,7 +68,11 @@ h2 { font-size: clamp(2.6rem, 6vw, 4.5rem); line-height: 1; letter-spacing: -.01
 .pricing { background: #080808; }
 .section-heading { max-width: 720px; margin-bottom: 45px; }
 .section-heading > p:last-child { color: var(--muted); font-size: 1.05rem; }
-.service-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
 .service-card {
   min-height: 220px; padding: 26px; background: linear-gradient(145deg, #171717, #0b0b0b);
   border: 1px solid #242424; position: relative; overflow: hidden;
